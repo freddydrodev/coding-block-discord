@@ -1,0 +1,43 @@
+body {
+  background-color: #23272a;
+}
+body.dragging,
+body.dragging * {
+  cursor: move !important;
+}
+
+.dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+body,
+button,
+input,
+textarea,
+select,
+option,
+table {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  color: #2d3b55;
+}
+.opac-6 {
+  opacity: 0.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,119 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 17/05/2018 16:22
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-security-1:before { content: "\f100"; }
+.flaticon-big-star:before { content: "\f101"; }
+.flaticon-big-folder:before { content: "\f102"; }
+.flaticon-music-player-levels:before { content: "\f103"; }
+.flaticon-big-eye-watching:before { content: "\f104"; }
+.flaticon-round-play-button:before { content: "\f105"; }
+.flaticon-curved-arrows:before { content: "\f106"; }
+.flaticon-add:before { content: "\f107"; }
+.flaticon-close:before { content: "\f108"; }
+.flaticon-arrows-4:before { content: "\f109"; }
+.flaticon-arrows-3:before { content: "\f10a"; }
+.flaticon-plus:before { content: "\f10b"; }
+.flaticon-security:before { content: "\f10c"; }
+.flaticon-luxury:before { content: "\f10d"; }
+.flaticon-box:before { content: "\f10e"; }
+.flaticon-woman:before { content: "\f10f"; }
+.flaticon-light-bulb:before { content: "\f110"; }
+.flaticon-mail-1:before { content: "\f111"; }
+.flaticon-man:before { content: "\f112"; }
+.flaticon-mail:before { content: "\f113"; }
+.flaticon-menu-1:before { content: "\f114"; }
+.flaticon-more-options:before { content: "\f115"; }
+.flaticon-more-1:before { content: "\f116"; }
+.flaticon-menu:before { content: "\f117"; }
+.flaticon-more:before { content: "\f118"; }
+.flaticon-right-arrow:before { content: "\f119"; }
+.flaticon-down-arrow:before { content: "\f11a"; }
+.flaticon-recycle:before { content: "\f11b"; }
+.flaticon-interface-1:before { content: "\f11c"; }
+.flaticon-recycle-bin:before { content: "\f11d"; }
+.flaticon-interface:before { content: "\f11e"; }
+.flaticon-trash-1:before { content: "\f11f"; }
+.flaticon-trash:before { content: "\f120"; }
+.flaticon-arrows-2:before { content: "\f121"; }
+.flaticon-arrows-1:before { content: "\f122"; }
+.flaticon-arrows:before { content: "\f123"; }
+.flaticon-music-player-play:before { content: "\f124"; }
+.flaticon-code-signs:before { content: "\f125"; }
+.flaticon-programming-code-signs:before { content: "\f126"; }
+.flaticon-move-arrows:before { content: "\f127"; }
+    
+    $font-Flaticon-security-1: "\f100";
+    $font-Flaticon-big-star: "\f101";
+    $font-Flaticon-big-folder: "\f102";
+    $font-Flaticon-music-player-levels: "\f103";
+    $font-Flaticon-big-eye-watching: "\f104";
+    $font-Flaticon-round-play-button: "\f105";
+    $font-Flaticon-curved-arrows: "\f106";
+    $font-Flaticon-add: "\f107";
+    $font-Flaticon-close: "\f108";
+    $font-Flaticon-arrows-4: "\f109";
+    $font-Flaticon-arrows-3: "\f10a";
+    $font-Flaticon-plus: "\f10b";
+    $font-Flaticon-security: "\f10c";
+    $font-Flaticon-luxury: "\f10d";
+    $font-Flaticon-box: "\f10e";
+    $font-Flaticon-woman: "\f10f";
+    $font-Flaticon-light-bulb: "\f110";
+    $font-Flaticon-mail-1: "\f111";
+    $font-Flaticon-man: "\f112";
+    $font-Flaticon-mail: "\f113";
+    $font-Flaticon-menu-1: "\f114";
+    $font-Flaticon-more-options: "\f115";
+    $font-Flaticon-more-1: "\f116";
+    $font-Flaticon-menu: "\f117";
+    $font-Flaticon-more: "\f118";
+    $font-Flaticon-right-arrow: "\f119";
+    $font-Flaticon-down-arrow: "\f11a";
+    $font-Flaticon-recycle: "\f11b";
+    $font-Flaticon-interface-1: "\f11c";
+    $font-Flaticon-recycle-bin: "\f11d";
+    $font-Flaticon-interface: "\f11e";
+    $font-Flaticon-trash-1: "\f11f";
+    $font-Flaticon-trash: "\f120";
+    $font-Flaticon-arrows-2: "\f121";
+    $font-Flaticon-arrows-1: "\f122";
+    $font-Flaticon-arrows: "\f123";
+    $font-Flaticon-music-player-play: "\f124";
+    $font-Flaticon-code-signs: "\f125";
+    $font-Flaticon-programming-code-signs: "\f126";
+    $font-Flaticon-move-arrows: "\f127";

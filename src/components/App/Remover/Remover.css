@@ -1,0 +1,35 @@
+
+
+.Remover .delete {
+  line-height: 20px;
+  font-size: 20px;
+  padding: 15px;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  transition: linear all 0.2s;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.5);
+  margin: 20px 0;
+  border-radius: 50%;
+}
+.Remover .delete {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+
+.Remover {
+  left: 300px;
+  width: calc(100% - 600px);
+  z-index: 1200;
+  text-align: center;
+  margin: 0;
+  height: 70px;
+}
+.Remover .code-block {
+  display: none;
+  height: 0;
+}

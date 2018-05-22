@@ -1,0 +1,114 @@
+.element {
+  color: white;
+  background-color: #7289da;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  cursor: move;
+}
+
+.code-block {
+  margin-bottom: 10px;
+}
+
+.code-block-icon {
+  line-height: 50px;
+  min-width: 50px;
+  font-size: 24px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.code-block-description {
+  max-width: 120px;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.code-block-item {
+  margin: 16px 0;
+}
+
+.code-block-value {
+  max-width: 90px;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.code-block-placeholder {
+  width: 260px;
+  height: 50px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 4px dashed #99aab5;
+  background: #fff;
+  margin-bottom: 10px;
+}
+
+.element.element-container {
+  border-radius: 5px 5px 0 0;
+}
+
+.code-block:last-of-type {
+  margin-bottom: 0;
+}
+
+.nested-children {
+  padding: 25px 10px;
+  background-color: #99aab5;
+  min-height: 60px;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: move;
+  box-sizing: border-box;
+}
+
+.blockCode {
+  box-sizing: border-box;
+  background-color: #7289da;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  cursor: move;
+  color: white;
+  margin: 5px;
+}
+.blockCode-header .blockBlock-title {
+  line-height: 40px;
+  margin: 0 10px;
+}
+.blockCode-header .blockCode-icon {
+  padding:8px;
+  font-size: 24px;
+  line-height: 24px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.blockCode-data {
+  background-color: white;
+}
+.blockCode-data .form-control {
+  border-radius: 0;
+  /* background-color: #f2f5f7; */
+  color: #7289da;
+  border: 1px solid rgb(224, 227, 230);
+  border-top: none;  
+}
+.blockCode-data .form-control:focus {
+  box-shadow: none;
+}
+.blockCode-children {
+  min-height: 50px;
+  background-color: #F0F4F7;
+  padding: 10px;
+  border: 1px solid rgb(224, 227, 230);
+  border-top: none;
+}
+.blockCode-container-label {
+  font-size: .8em;
+  opacity: .5;
+  color: black;
+  width: 0 !important;
+  height: 0 !important;
+  user-select: none;
+}

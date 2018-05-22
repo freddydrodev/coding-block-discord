@@ -1,0 +1,25 @@
+.sider {
+  width: 300px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 1000;
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+  height: 100vh;
+  /* overflow-y: scroll; */
+}
+
+.sider .btn-block,
+.sider .card-body {
+  background-color: #fff;
+  color: #2c2f33;
+  border-bottom: 1px solid #99aab5;
+}
+.sider .btn-block:hover {
+  color: #7289da;
+}
+
+.sider .btn-block:not(.collapsed) {
+  color: white;
+  background-color: #7289da;
+  text-decoration: none;
+}

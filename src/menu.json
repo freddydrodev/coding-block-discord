@@ -1,0 +1,137 @@
+{
+  "Controls": {
+    "title": "Controls",
+    "content": [
+      {
+        "title": "If",
+        "icon": "flaticon-icon",
+        "input": false,
+        "action": "ifStatement",
+        "container": [
+          { "label": "Condition", "draggable": ".item" },
+          { "label": "Then", "draggable": ".item-2" }
+        ]
+      }
+    ]
+  },
+  "Blocks": {
+    "title": "Blocks",
+    "content": [
+      {
+        "title": "On Message",
+        "icon": "flaticon-icon",
+        "input": false,
+        "action": "onMsg",
+        "container": true
+      },
+      {
+        "title": "Message.children",
+        "icon": "flaticon-icon",
+        "input": [
+          {
+            "type": "select",
+            "data": [
+              { "name": "Author Username", "value": "author.username" },
+              { "name": "Message", "value": "content" }
+            ]
+          }
+        ],
+        "action": "msgChildren"
+      },
+      {
+        "title": "Console",
+        "icon": "flaticon-icon",
+        "input": [
+          {
+            "type": "select",
+            "data": [
+              { "name": "Log", "value": "log" },
+              { "name": "Warn", "value": "warn" },
+              { "name": "Info", "value": "info" },
+              { "name": "Error", "value": "error" }
+            ]
+          },
+          {
+            "type": "text"
+          }
+        ],
+        "action": "consoleStatement"
+      }
+    ]
+  },
+  "Contents": {
+    "title": "Contents",
+    "content": [
+      {
+        "title": "String",
+        "icon": "flaticon-icon",
+        "input": true,
+        "action": "string"
+      },
+      {
+        "title": "Number",
+        "icon": "flaticon-icon",
+        "input": [{ "type": "number" }],
+        "action": "number"
+      },
+      {
+        "title": "Box",
+        "icon": "flaticon-icon",
+        "input": [
+          { "type": "text" },
+          { "type": "number" },
+          {
+            "type": "select",
+            "data": [
+              { "name": "mouse-pointer", "value": "mouse_pointer" },
+              { "name": "edge", "value": "edge" }
+            ]
+          }
+        ],
+        "container": [
+          { "label": "Condition", "draggable": ".item" },
+          { "label": "Then", "draggable": ".item-2" }
+        ]
+      }
+    ]
+  },
+  "Operators": {
+    "title": "Operators",
+    "content": [
+      {
+        "title": "Equal (a === b)",
+        "icon": "flaticon-icon",
+        "action": "equalOperator",
+        "container": [{ "draggable": ".item" }, { "draggable": ".item" }]
+      },
+      {
+        "title": "And (a && b)",
+        "icon": "flaticon-icon",
+        "input": false,
+        "action": "andOperator",
+        "container": [{ "draggable": ".item" }, { "draggable": ".item" }]
+      },
+      {
+        "title": "Or (a || b)",
+        "icon": "flaticon-icon",
+        "input": false,
+        "action": "orOperator",
+        "container": [{ "draggable": ".item" }, { "draggable": ".item" }]
+      },
+      {
+        "title": "Lower (a < b)",
+        "action": "lowerOperator",
+        "icon": "flaticon-icon",
+        "input": false,
+        "container": [{ "draggable": ".item" }, { "draggable": ".item-2" }]
+      },
+      {
+        "title": "Higer (a > b)",
+        "action": "higherOperator",
+        "icon": "flaticon-icon",
+        "input": false,
+        "container": [{ "draggable": ".item" }, { "draggable": ".item-2" }]
+      }
+    ]
+  }
+}

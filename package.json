@@ -3,14 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.6.1",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "markdown-it": "^8.4.1",
+    "perfect-scrollbar": "^1.3.0",
+    "popper.js": "^1.14.3",
+    "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-drag-and-zoom": "^1.1.3",
+    "react-notification-system": "^0.2.17",
+    "react-scripts": "1.1.4",
+    "sortablejs": "^1.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "proxy": {
+    "/api": {
+      "target": "https://murmuring-sands-87777.herokuapp.com/",
+      "ws": true
+    }
   }
 }
