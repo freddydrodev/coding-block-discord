@@ -25,6 +25,13 @@
         "container": true
       },
       {
+        "title": "Send Message",
+        "icon": "flaticon-icon",
+        "input": false,
+        "action": "sendMsg",
+        "input": true
+      },
+      {
         "title": "Message.children",
         "icon": "flaticon-icon",
         "input": [

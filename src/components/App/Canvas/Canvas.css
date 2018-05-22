@@ -10,16 +10,19 @@
   min-height: 90px;
   border: 2px dashed #99aab5;
   background-color: #2c2f33;
-  padding: 20px 0;
-  margin: 20px 0;  
+  margin: 20px 0;
+  position: relative;
 }
 .Canvas-dropper-item:before {
   width: 100%;
   display: block;
+  position: absolute;
   content: "Drop here!";
   text-align: center;
   line-height: 90px;
   color: #99aab5;
+  top: 0;
+  left: 0;
 }
 .with-children {
   height: 100%;

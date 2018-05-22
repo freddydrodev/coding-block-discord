@@ -38,6 +38,9 @@ const dictionary = {
   onMsg(_parser) {
     return `client.on("message", message => {${_parser[0]}})`;
   },
+  sendMsg(value) {
+    return `message.channel.send(${value});`;
+  },
   msgChildren(value) {
     return `message.${value}`;
   },

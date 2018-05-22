@@ -1,6 +1,7 @@
 /* eslint no-eval: 0 */
 import React, { Component } from "react";
-// import Discord from "discord.js";
+import { Button } from "antd";
+import Discord from "discord.js";
 import Sortable from "sortablejs";
 
 import "./App.css";
@@ -12,12 +13,12 @@ import dictionary from "../../dictionary.js";
 import menuDB from "../../menu.json";
 import { token } from "../../config.json";
 
-// const client = new Discord.Client(); //create a discord client
-// client.login(token); //login with my ID
+const client = new Discord.Client(); //create a discord client
+client.login(token); //login with my ID
 
-// client.on("ready", () => {
-//   console.log("ready!");
-// });
+client.on("ready", () => {
+  console.log("ready!");
+});
 
 class App extends Component {
   componentDidMount() {
@@ -122,9 +123,9 @@ class App extends Component {
     const serie = this._parser(lis);
     //convert the serie to an array of strings
     const output = this._runParser(serie);
-    console.log(lis);
-    console.log(serie);
-    console.log(output);
+    // console.log(lis);
+    // console.log(serie);
+    // console.log(output);
 
     //set the state
     this.setState({ serie, output }, () => {
@@ -231,6 +232,9 @@ class App extends Component {
             break;
           case "onMsg":
             return dictionary.onMsg(this._runParser(children));
+            break;
+          case "sendMsg":
+            return dictionary.sendMsg(values[0][0]);
             break;
           case "msgChildren":
             return dictionary.msgChildren(values[0][0]);
