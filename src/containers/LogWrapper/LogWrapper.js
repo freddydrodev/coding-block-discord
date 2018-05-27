@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 
-import routes from "../../routes/appRoutes.js";
+import routes from "../../routes/logRoutes.js";
 
-class AppWrapper extends Component {
+class LogWrapper extends Component {
   render() {
     return (
       <Switch>
@@ -13,4 +13,4 @@ class AppWrapper extends Component {
   }
 }
 
-export default AppWrapper;
+export default LogWrapper;

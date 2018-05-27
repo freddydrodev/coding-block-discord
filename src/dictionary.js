@@ -2,15 +2,6 @@
 // on the action you want to do
 //for example content depend on message so message needs _parser
 //args is also optional it represent the value of the input
-// import Discord from "discord.js";
-// import { token } from "./config.json";
-
-// const client = new Discord.Client(); //create a discord client
-// client.login(token); //login with my ID
-
-// client.on("ready", () => {
-//   console.log("ready!");
-// });
 
 // This is the basic structure
 //always return a string

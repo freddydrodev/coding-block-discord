@@ -8,8 +8,8 @@ import "bootstrap/dist/css/bootstrap.min.css"; //to implement the bootstrap desi
 import "bootstrap/dist/js/bootstrap.min.js"; //to initial bootstrap animation
 import "animate.css/animate.min.css"; //for the bounce animation and more
 import "./stylesheets/index.css"; //base design
-import App from "./pages/App/App.js"; // system itself
+import MainWrapper from "./containers/MainWrapper/MainWrapper.js";
 import registerServiceWorker from "./registerServiceWorker";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<MainWrapper />, document.getElementById("root"));
 registerServiceWorker();
